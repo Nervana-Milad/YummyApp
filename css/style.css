@@ -1,0 +1,42 @@
+body {
+  background-color: black;
+}
+
+nav {
+  z-index: 99;
+}
+
+.logo {
+  width: 50px;
+}
+
+.side-nav li,
+i,
+.meal {
+  cursor: pointer;
+}
+
+.loading {
+  z-index: 999;
+}
+
+.inner {
+  z-index: 9;
+  background-color: #0d0d0d;
+}
+
+.layer {
+  width: 100%;
+  height: 100%;
+  background-color: #f9f6f6ca;
+  top: 100%;
+  transition: all 0.5s;
+}
+
+.meal:hover .layer {
+  top: 0;
+}
+
+.inp::placeholder {
+  color: aliceblue;
+}
